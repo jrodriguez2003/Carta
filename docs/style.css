@@ -1,0 +1,252 @@
+body{
+
+    background: url(Imagenes/wallpaperbetter.com_1920x1080.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.padre{
+    background: transparent;
+    height: 482px;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+    width: 800px;
+}
+
+.texto{
+    color: white;
+    position: absolute;
+    margin: 0;
+    padding: 0 1rem;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.texto2{
+    color: white;
+    position: absolute;
+    margin-top: 190px;
+    padding: 0 1rem;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.texto3{
+    color: white;
+    position: absolute;
+    margin-top: 240px;
+    padding: 0 1rem;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.card{
+    margin-left: 35px;
+    margin-top: -40px;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+
+.card .face{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: black;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.card2{
+    margin-left: 1215px;
+    margin-top: -40px;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+
+.card2 .face{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card2 .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card2 .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: black;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card2:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card2:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.card3{
+    margin-left: 35px;
+    margin-top: 250px;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+
+.card3 .face{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card3 .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card3 .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card3 .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: black;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card3:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card3:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.card4{
+    margin-left: 1215px;
+    margin-top: 250px;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+}
+
+.card4 .face{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card4 .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card4 .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card4 .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: black;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card4:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card4:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+#p0 { text-indent: 2em; }
